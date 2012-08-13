@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.author   = { 'appRenaissance' => 'opensource@apprenaissance.com' }
   s.source   = { :git => 'https://github.com/appRenaissance/ARiOSUtilities.git', :commit => '7f2812c0153aa0fd08f7294a176dd655614c78af' }
   s.platform = :ios
+  s.requires_arc = true
 
   s.subspec 'ARFoundationAdditions' do |sub|
     sub.source_files = 'ARFoundationAdditions/*.{h,m}'
