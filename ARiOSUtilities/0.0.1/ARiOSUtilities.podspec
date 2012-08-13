@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'ARGoogleAnalytics' do |sub|
     sub.source_files = 'ARGoogleAnalytics/*.{h,m}'
-    sub.dependency   = 'GoogleAnalytics-iOS-SDK'
+    sub.dependency 'GoogleAnalytics-iOS-SDK'
   end
 
   s.subspec 'ARHelpers' do |sub|
