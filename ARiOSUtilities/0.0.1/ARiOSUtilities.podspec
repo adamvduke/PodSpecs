@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'ARHelpers' do |sub|
     sub.source_files = 'ARHelpers/*.{h,m}'
+    sub.framework    = 'AudioToolbox'
   end
 
   s.subspec 'ARUIKitAdditions' do |sub|
