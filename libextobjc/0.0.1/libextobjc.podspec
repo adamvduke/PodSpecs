@@ -5,5 +5,6 @@ Pod::Spec.new do |s|
   s.author       = { 'Justin Spahr-Summers' => 'jspahrsummers@github.com' }
   s.source       = { :git => 'https://github.com/jspahrsummers/libextobjc.git', :commit => '0e79693a142250300bcedf68f0f0fa52d6778a55' }
   s.source_files = 'extobjc/*.{h,m}'
+  s.requires_arc = true
   s.dependency 'libffi'
 end
