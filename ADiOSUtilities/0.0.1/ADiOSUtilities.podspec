@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name     = 'ADiOSUtilities'
-  s.version  = '0.0.1'
+  s.version  = '1.0.0'
   s.license  = 'MIT'
   s.summary  = 'ADiOSUtilities is collection of static libraries with re-useable iOS awesomeness.'
   s.homepage = 'https://github.com/adamvduke/ADiOSUtilities'
   s.author   = { 'Adam Duke' => 'adam.v.duke+github@gmail.com' }
-  s.source   = { :git => 'https://github.com/adamvduke/ADiOSUtilities.git', :commit => '4a096c9280e923d5126e329ce9a9962e53876c79' }
+  s.source   = { :git => 'https://github.com/adamvduke/ADiOSUtilities.git', :tag => '1.0.0' }
   s.platform = :ios
   s.requires_arc = true
 
